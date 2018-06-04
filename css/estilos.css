@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    margin-top: 5%; 
+}
+.menu {
+    width: 20%;
+}
+.conteudos {
+    width: 50%;
+    height: 100%;
+}
+.inicio {
+    background-color: #99e099;
+}
+.sobre {
+    background-color: #fba4a4;
+}
+.contato {
+    background-color: #b5b5ff;
+}
+.conteudo {
+    height: 100%;
+}
+.menu-item {
+    list-style-type: none;
+    background-color: #9898a2;
+    color: #fff;
+    width: 90%;
+    height: 50px;
+    margin: 0.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu-itens a {
+    text-decoration: none;
+}
+
+.menu-itens {
+    display: flex;
+    flex-direction: column;
+}
+
+.sumir {
+    display: none;
+}
